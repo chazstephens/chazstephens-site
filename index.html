@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chaz Stephens</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Chaz Stephens — Senior Account Manager, Verizon Business. Sales, telecom, consumer electronics, practical AI, and music.">
+  <link rel="stylesheet" href="./styles.css?v=14">
+  <meta name="theme-color" content="#E2E8CE" />
+</head>
+<body>
+<div class="bg"></div>
+<div class="bg-accent"></div>
+<div class="bg-grain"></div>
+
+<div class="wrap">
+  <header class="header glass">
+    <div class="header-inner">
+      <div class="brand">Chaz Stephens</div>
+
+      <nav class="tabs" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#guides">Guides</a>
+        <a href="#experience">Experience</a>
+        <a href="#photos">Photos</a>
+        <a href="#ai">AI</a>
+        <a href="#music">Music</a>
+        <a href="#links">Links</a>
+      </nav>
+
+      <div style="display:flex;gap:8px;align-items:center">
+        <a class="iconbtn" href="mailto:chazstephens@me.com" aria-label="Email Chaz (personal)">✉️</a>
+        <a class="iconbtn" href="tel:+16185936948" aria-label="Call Chaz (personal)">📞</a>
+        <button id="burger" class="iconbtn burger" aria-label="Open menu" type="button">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="backdrop" class="drawer-backdrop"></div>
+  <aside id="drawer" class="drawer" aria-label="Mobile menu">
+    <div class="glass">
+      <div class="toprow">
+        <div class="brand" style="font-size:16px">Menu</div>
+        <button id="closeDrawer" class="iconbtn" aria-label="Close menu" type="button">✕</button>
+      </div>
+      <nav class="menu" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#guides">What guides my work</a>
+        <a href="#experience">Experience</a>
+        <a href="#photos">Photos</a>
+        <a href="#ai">AI</a>
+        <a href="#music">Music</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- 1) HERO -->
+  <section class="section glass inset reveal">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="kicker">Senior Account Manager • Verizon Business</div>
+        <h1>Hey — I’m Chaz. Thanks for stopping by.</h1>
+        <p class="sub">
+          I’m known for making business relationships feel effortless—building trust quickly, cutting through friction,
+          and working in a personal, conversational way that actually gets things done.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="./assets/Chaz_Stephens_Resume.pdf" download>Download Resume</a>
+          <a class="btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/chazstephens">LinkedIn</a>
+        </div>
+
+        <div style="margin-top:14px;color:rgba(0,0,0,.52);font-size:12px;font-weight:900">
+        </div>
+      </div>
+
+      <div class="headshot-wrap">
+        <div class="headshot-cutout" aria-label="Headshot area (replace /assets/headshot.png)">
+          <div class="headshot-ring"></div>
+          <img src="./assets/headshot.png" alt="Headshot placeholder (replace with your cutout headshot)">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2) ABOUT -->
+  <section id="about" class="section glass inset reveal">
+    <div class="kicker">About</div>
+    <hr class="sep">
+    <div class="card">
+      <h2>How I show up</h2>
+      <p class="sub"><strong>Thoughtful. Deliberate. Tactful.</strong></p>
+      <div style="margin-top:12px;display:grid;gap:10px;color:rgba(0,0,0,.72);font-weight:800">
+        <div>• Managed and grew multi-million-dollar accounts for one of the world’s largest technology brands.</div>
+        <div>• Designed creative, practical solutions that streamlined technology implementation across industries.</div>
+        <div>• Built and nurtured a community around business, culture, and shared interests.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3) WHAT GUIDES MY WORK -->
+  <section id="guides" class="section glass inset reveal">
+    <div class="kicker">What guides my work</div>
+    <hr class="sep">
+    <div class="guides-grid">
+      <div class="guides-item">
+        <div class="t">Keep it human</div>
+        <div class="d">Trust and clarity beat pressure. I’d rather be direct, helpful, and consistent.</div>
+      </div>
+      <div class="guides-item">
+        <div class="t">Make complexity feel simple</div>
+        <div class="d">Translate options into outcomes so people can say “yes” with confidence.</div>
+      </div>
+      <div class="guides-item">
+        <div class="t">Execution matters</div>
+        <div class="d">A great plan is only useful if it’s easy to implement and easy to sustain.</div>
+      </div>
+      <div class="guides-item">
+        <div class="t">Signal over noise</div>
+        <div class="d">Focus on what moves the needle—then remove friction until it’s inevitable.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4) EXPERIENCE (carousel) -->
+  <section id="experience" class="section glass inset reveal">
+    <div class="kicker">Experience</div>
+    <hr class="sep">
+
+    <div class="card carousel" aria-label="Experience carousel (click dots to switch)">
+      <div class="slide active" data-slide="1">
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+          <img src="./assets/verizon-logo.jpeg" alt="Verizon logo" style="height:28px;width:auto;border-radius:8px">
+          <div style="font-weight:900">Verizon Business</div>
+        </div>
+        <h2>Senior Account Manager</h2>
+        <p class="sub">Consultative solutioning + account strategy for mid-market businesses across network, SaaS, and telecom.</p>
+        <div style="margin-top:12px;display:grid;gap:10px;color:rgba(0,0,0,.72);font-weight:800">
+          <div>• Optimize costs, workflows, and deployment plans with a “clean execution” mindset.</div>
+          <div>• Drive market share growth through long-term relationships and partner alignment.</div>
+        </div>
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn primary" href="tel:+16362007740">Call (work): 636-200-7740</a>
+          <a class="btn" href="mailto:Chaz.Stephens@verizonwireless.com">Email (work)</a>
+        </div>
+      </div>
+
+      <div class="slide" data-slide="2">
+        <h2>Previous role (placeholder)</h2>
+        <p class="sub">Add your next role here (e.g., Apple Area Sales Manager). Replace copy + logo later.</p>
+        <div style="margin-top:12px;display:grid;gap:10px;color:rgba(0,0,0,.72);font-weight:800">
+          <div>• Placeholder highlight #1</div>
+          <div>• Placeholder highlight #2</div>
+        </div>
+      </div>
+
+      <div class="slide" data-slide="3">
+        <h2>Earlier role (placeholder)</h2>
+        <p class="sub">Add another role here (e.g., Lead Apple Solutions Consultant / enterprise support).</p>
+        <div style="margin-top:12px;display:grid;gap:10px;color:rgba(0,0,0,.72);font-weight:800">
+          <div>• Placeholder highlight #1</div>
+          <div>• Placeholder highlight #2</div>
+        </div>
+      </div>
+
+      <div class="slide" data-slide="4">
+        <h2>Foundation role (placeholder)</h2>
+        <p class="sub">Add an earlier “origin story” role here (retail, early tech, etc.).</p>
+        <div style="margin-top:12px;display:grid;gap:10px;color:rgba(0,0,0,.72);font-weight:800">
+          <div>• Placeholder highlight #1</div>
+          <div>• Placeholder highlight #2</div>
+        </div>
+      </div>
+
+      <div class="carousel-nav">
+        <div class="dots" role="tablist" aria-label="Experience navigation">
+          <div class="dot active" data-dot="1" role="tab" tabindex="0" aria-label="Verizon"></div>
+          <div class="dot" data-dot="2" role="tab" tabindex="0" aria-label="Previous role"></div>
+          <div class="dot" data-dot="3" role="tab" tabindex="0" aria-label="Earlier role"></div>
+          <div class="dot" data-dot="4" role="tab" tabindex="0" aria-label="Foundation role"></div>
+        </div>
+
+        </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Personal sections stay below (we'll refine next) -->
+  <section id="photos" class="section glass inset reveal">
+    <div class="kicker">Photos</div>
+    <hr class="sep">
+    <div class="card">
+      <h2>Moments</h2>
+      <p class="sub">Placeholders for now — next we’ll add your real images and tune the grid.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px">
+        <div style="border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.10)"><img src="./assets/photo-1.svg" alt="Photo 1" style="width:100%;height:220px;object-fit:cover;display:block"></div>
+        <div style="border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.10)"><img src="./assets/photo-2.svg" alt="Photo 2" style="width:100%;height:220px;object-fit:cover;display:block"></div>
+        <div style="border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.10)"><img src="./assets/photo-3.svg" alt="Photo 3" style="width:100%;height:220px;object-fit:cover;display:block"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai" class="section glass inset reveal">
+    <div class="kicker">AI (Business Approach)</div>
+    <hr class="sep">
+    <div class="card">
+      <h2>Practical AI, not hype</h2>
+      <p class="sub">We’ll refine this section next — keeping it grounded, outcome-driven, and certification-ready.</p>
+    </div>
+  </section>
+
+  <section id="music" class="section glass inset reveal">
+    <div class="kicker">Music</div>
+    <hr class="sep">
+    <div class="card">
+      <h2>Bands, shows, and collecting</h2>
+      <p class="sub">We’ll refine this section next and add your images.</p>
+      <div style="margin-top:12px">
+        <a class="btn primary" target="_blank" rel="noreferrer" href="https://www.discogs.com/user/cratecollective">
+          <img src="./assets/discogs-logo.png" alt="Discogs logo" style="height:18px;width:auto;border-radius:4px">
+          View my Discogs
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="links" class="section glass inset reveal">
+    <div class="kicker">Links</div>
+    <hr class="sep">
+    <div class="card">
+      <div style="display:grid;gap:12px;grid-template-columns:1fr 1fr">
+        <a class="btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/chazstephens">
+          <img src="./assets/linkedin-icon.svg" alt="LinkedIn" style="height:18px;width:auto;border-radius:4px"> LinkedIn
+        </a>
+        <a class="btn" target="_blank" rel="noreferrer" href="https://www.discogs.com/user/cratecollective">
+          <img src="./assets/discogs-logo.png" alt="Discogs" style="height:18px;width:auto;border-radius:4px"> Discogs
+        </a>
+      </div>
+
+      <hr class="sep">
+
+      <h2>Projects &amp; Brands</h2>
+      <p class="sub">A dedicated place for your independent projects and brands (not Verizon).</p>
+      <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+        <span class="btn" onclick="return false;">Crate Collective</span>
+        <span class="btn" onclick="return false;">Printed Noise</span>
+        <span class="btn" onclick="return false;">Pressed Noise</span>
+      </div>
+
+      <hr class="sep">
+
+      <h2>Personal contact</h2>
+      <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn primary" href="tel:+16185936948">Call: 618-593-6948</a>
+        <a class="btn" href="mailto:chazstephens@me.com">Email: chazstephens@me.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© Chaz Stephens</span>
+    <span>v14 • Refined button type</span>
+  </footer>
+</div>
+
+<script src="./script.js?v=14"></script>
+</body>
+</html>
